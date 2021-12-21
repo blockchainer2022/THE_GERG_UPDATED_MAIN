@@ -129,11 +129,6 @@ const App = () => {
       if (chainId === 4) {
         const saleOpen = await contract.methods.saleOpen().call();
         if (saleOpen) {
-          // const { data } = await axios.get(
-          //   `https://defi.mobiwebsolutionz.com/nft/gregs/verify_whitelist.php?wallet_address=${account}`
-          // );
-          // const isVerified = data.verified;
-          // console.log(isVerified, typeof data.verified);
           const userBalance = await contract.methods.balanceOf(account).call();
           const MAX_MINT = await contract.methods.MAX_ALLOWED().call();
           // console.log(
@@ -144,7 +139,11 @@ const App = () => {
           // );
           // console.log(typeof userBalance, typeof MAX_MINT);
           console.log(Number(userBalance), Number(MAX_MINT));
-          if (Number(userBalance) >= Number(MAX_MINT)) {
+          if (
+            // Number(userBalance) >= Number(MAX_MINT) ||
+            Number(userBalance) + mintCount >
+            Number(MAX_MINT)
+          ) {
             setMaxMint(true);
           } else {
             if (mintCount === 0) {
