@@ -142,8 +142,9 @@ const App = () => {
           //   "MAXVALUE:",
           //   MAX_MINT
           // );
-
-          if (userBalance >= MAX_MINT) {
+          // console.log(typeof userBalance, typeof MAX_MINT);
+          console.log(Number(userBalance), Number(MAX_MINT));
+          if (Number(userBalance) >= Number(MAX_MINT)) {
             setMaxMint(true);
           } else {
             if (mintCount === 0) {
@@ -152,7 +153,7 @@ const App = () => {
               setConfirmTransaction(true);
               const finalPrice = Number(price) * mintCount;
               contract.methods
-                .presaleMintNFT(mintCount)
+                .mintNFT(mintCount)
                 .send({ from: account, value: finalPrice })
                 .on("transactionHash", function () {
                   setConfirmTransaction(false);

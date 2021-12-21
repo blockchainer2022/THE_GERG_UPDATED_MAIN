@@ -59,14 +59,14 @@ const TopSection = ({
       setValue(0);
     } else {
       if (reg.test(Number(e.target.value))) {
-        if (Number(e.target.value) <= 5) {
+        if (Number(e.target.value) <= 30) {
           setValue(e.target.value);
         }
       }
     }
   };
   const increse = () => {
-    if (value < 5) {
+    if (value < 30) {
       setValue((prev) => Number(prev) + 1);
     }
   };
