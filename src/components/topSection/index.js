@@ -166,7 +166,7 @@ const TopSection = ({
               <p>
                 Total Gregs Sold{" "}
                 <span className="linebreak">
-                  {totalSupply}/{maxSupply}
+                  {totalSupply === maxSupply? totalSupply : totalSupply - 2 }/{maxSupply}
                 </span>
               </p>
               <br />
