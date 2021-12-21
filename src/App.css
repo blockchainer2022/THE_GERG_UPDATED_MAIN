@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@400;500;600;700;900&display=swap");
+body {
+  height: 100vh;
+  /* background-image: url(./assets/Desktopbg.png); */
+  /* background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat; */
+  font-family: "Noto Sans Mono", monospace;
+  background-color: black;
+}

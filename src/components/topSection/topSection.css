@@ -1,0 +1,372 @@
+.topsection-main-wrapper {
+  width: 100%;
+  min-height: 90vh;
+  display: flex;
+}
+
+.topsection-slider-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.topsection-inner-wrapper {
+  width: 90%;
+  margin: auto;
+}
+
+.background-greg {
+  opacity: 0.5;
+  height: 60em;
+  position: absolute;
+  left: 50%;
+  margin-left: -30em;
+  top: 50%;
+  margin-top: -35em;
+  z-index: -1;
+}
+
+.top-logo-wrapper {
+  text-align: center;
+  padding: 32px;
+  margin-bottom: 50px;
+}
+
+.links-wrapper ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  align-items: center;
+}
+
+.links-wrapper ul li {
+  opacity: 1;
+  color: #fff;
+  font-family: inherit;
+  font-size: 21px;
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+.topsection-bootom-box-wrapper {
+  width: 100%;
+}
+
+.topsection-bootom-inner-box-wrapper {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0px;
+}
+
+.topsection-bootom-inner-box-wrapper .topb-left-wrapper h1 {
+  margin-top: 50px;
+  opacity: 1;
+  color: #fff;
+  font-family: inherit;
+  font-weight: 300;
+  font-size: 64px;
+  text-align: left;
+}
+
+.topsection-bootom-inner-box-wrapper .topb-left-wrapper p {
+  margin-top: 20px;
+  color: #fff;
+  font-size: 25px;
+  text-align: left;
+  font-family: inherit;
+}
+
+.topsection-bootom-inner-box-wrapper .topb-left-wrapper .buy-nowbtn-wrapper {
+  width: 100%;
+}
+
+.topsection-bootom-inner-box-wrapper
+  .topb-left-wrapper
+  .buy-nowbtn-wrapper
+  button {
+  margin-top: 20px;
+  margin-bottom: 0px;
+  width: 100%;
+  height: 71px;
+  font-size: 28px;
+  border: none;
+  outline: none;
+  color: white;
+  cursor: pointer;
+  font-family: inherit;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  border: 1px solid white;
+}
+
+.topb-right-wrapper img {
+  width: 400px;
+}
+
+.mint-buton-wrapper {
+  margin-top: 30px;
+  text-align: left;
+}
+
+.mint-buton-wrapper button {
+  background-color: #fff;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  width: 100%;
+  height: 71px;
+  font-size: 28px;
+  border: none;
+  outline: none;
+  color: #000;
+  cursor: pointer;
+}
+.mint-buton-wrapper .MuiButton-root {
+  font-family: "Noto Sans Mono", monospace;
+  text-transform: capitalize;
+}
+.mint-buton-wrapper button:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.mint-radio-wrapper {
+  margin-top: 50px;
+}
+.mint-buton-wrapper button.muiBtn {
+  color: #000;
+}
+.mint-radio-wrapper .mint-radio-single-wrapper {
+  cursor: pointer;
+  width: 80%;
+  display: flex;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  align-items: center;
+  padding: 20px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.mint-radio-wrapper .mint-radio-single-wrapper p {
+  margin-left: 5px;
+  margin-top: -1px;
+}
+
+.slider-below-text {
+  text-align: left;
+  font-weight: 700;
+}
+
+.big-font {
+  font-size: 32px;
+}
+
+.slidercustome {
+  width: 90%;
+}
+
+@media (max-width: 1300px) {
+  .topb-right-wrapper img {
+    width: 300px;
+  }
+}
+
+@media (max-width: 1050px) {
+  .slidercustome {
+    width: 100%;
+  }
+  .top-logo-wrapper {
+    padding-top: 50px;
+  }
+
+  .links-wrapper ul {
+    display: none;
+  }
+  .topsection-bootom-inner-box-wrapper {
+    display: block;
+  }
+  .topb-right-wrapper {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .topsection-bootom-inner-box-wrapper
+    .topb-left-wrapper
+    .buy-nowbtn-wrapper
+    button {
+    width: 100%;
+    font-size: 22px;
+  }
+  .topsection-bootom-inner-box-wrapper .topb-left-wrapper h1 {
+    font-size: 40px;
+    margin-top: 20px;
+    text-align: center;
+  }
+  .topsection-bootom-inner-box-wrapper .topb-left-wrapper p {
+    text-align: center;
+    font-size: 18px;
+  }
+  .topb-right-wrapper img {
+    width: 250px;
+  }
+
+  .mint-radio-wrapper {
+    width: 100%;
+    margin: auto;
+    margin-top: 30px;
+  }
+  .mint-radio-wrapper .mint-radio-single-wrapper {
+    width: 80%;
+    margin: auto;
+  }
+
+  .mint-buton-wrapper {
+    text-align: center;
+  }
+
+  .mint-buton-wrapper button {
+    width: 100%;
+    margin: auto;
+    font-size: 22px;
+  }
+
+  .slider-below-text {
+    text-align: center;
+  }
+  .topb-right-wrapper {
+    display: none;
+  }
+  .topsection-bootom-inner-box-wrapper
+    .topb-left-wrapper
+    .buy-nowbtn-wrapper
+    button {
+    margin-top: 0;
+  }
+
+  .big-font {
+    display: block;
+    text-align: center;
+    font-size: 32px;
+  }
+  .linebreak {
+    display: block;
+    text-align: center;
+  }
+}
+
+.top-logo-wrapper {
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+}
+.top-logo-wrapper img {
+  width: 100px;
+}
+
+.value-input-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px 0;
+}
+
+.value-input-container .value-btn {
+  display: flex;
+  height: 50px;
+  width: 40px;
+  color: white;
+  font-size: 16px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+}
+
+.value-input-container {
+  width: 250px;
+}
+
+.input-wrapper {
+  display: flex;
+  flex: 1;
+  color: white;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  justify-content: center;
+  align-items: center;
+}
+.input-wrapper input {
+  height: 100%;
+  border-radius: inherit;
+  border: 0;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: transparent;
+  color: white;
+}
+input:focus {
+  outline: none;
+}
+
+.input-box {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  background-color: white;
+}
+
+@media (max-width: 1990px) {
+  .background-greg {
+    opacity: 0.6;
+    height: 45em;
+    position: absolute;
+    left: 50%;
+    margin-left: -22.5em;
+    top: 40%;
+    margin-top: -22.5em;
+    z-index: -1;
+  }
+}
+
+@media (max-width: 800px) {
+  .background-greg {
+    opacity: 0.3;
+    height: 30em;
+    position: absolute;
+    left: 50%;
+    margin-left: -15em;
+    top: 50%;
+    margin-top: -15em;
+    z-index: -1;
+  }
+}
+
+@media (max-width: 420px) {
+  .background-greg {
+    opacity: 0.3;
+    height: 25em;
+    position: absolute;
+    left: 50%;
+    margin-left: -12.5em;
+    top: 50%;
+    margin-top: -12.5em;
+    z-index: -1;
+  }
+}

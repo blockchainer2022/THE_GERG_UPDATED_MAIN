@@ -1,0 +1,261 @@
+aside.svelte-rntogh {
+  display: flex;
+  font-family: "Baumans", cursive;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  font-size: 16px;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+aside {
+  backdrop-filter: blur(10px) drop-shadow(rgba(0, 0, 0, 0.25) 0px 4px 4px) !important;
+}
+
+aside {
+  display: block;
+}
+
+.bn-onboard-custom.bn-onboard-dark-mode {
+  background: #283944;
+  color: #ffffff;
+}
+
+section.svelte-rntogh {
+  display: block;
+  box-sizing: content-box;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.1);
+  font-family: inherit;
+  font-size: inherit;
+  padding: 1.33em;
+  position: relative;
+  overflow: hidden;
+  max-width: 37em;
+  color: #4a4a4a;
+}
+
+header.svelte-8i8o6j {
+  display: flex;
+  align-items: center;
+  font-size: inherit;
+  font-family: inherit;
+  margin-bottom: 1em;
+}
+
+.bn-onboard-custom.bn-onboard-dark-mode-background-hover:hover,
+.bn-onboard-custom.bn-onboard-dark-mode-background {
+  background: #0e212a;
+}
+
+div.svelte-8i8o6j {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: inherit;
+  font-family: inherit;
+  padding: 0.6em;
+  border-radius: 30px;
+  background: #eeeeee;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+h3.svelte-8i8o6j {
+  font-weight: bold;
+  font-size: 1.33em;
+  font-family: inherit;
+  margin: 0 0 0 0.5em;
+}
+
+blockquote,
+dl,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+figure,
+p,
+pre {
+  margin: 0px;
+}
+
+p.svelte-w9ftfy.svelte-w9ftfy {
+  font-size: 0.889em;
+  margin: 1.6em 0 0 0;
+  font-family: inherit;
+}
+
+p,
+label {
+  line-height: 1.5em;
+}
+
+ul.svelte-q1527.svelte-q1527 {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  list-style-type: none;
+  margin: 1.25em 0;
+  padding: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: 1.15;
+  box-sizing: border-box;
+}
+
+ul.svelte-q1527 li.svelte-q1527 {
+  padding: 0 0.25em;
+}
+
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+
+button.svelte-1799bj2 {
+  display: flex;
+  align-items: center;
+  border: none;
+  margin: 0.33em 0;
+  background: inherit;
+  font-size: inherit;
+  width: 18em;
+  padding: 0.625em 1.25em;
+  transition: box-shadow 150ms ease-in-out, background 200ms ease-in-out;
+  border-radius: 40px;
+  cursor: pointer;
+  color: inherit;
+  line-height: 1.15;
+  font-family: inherit;
+  opacity: 1;
+  transition: opacity 200ms;
+}
+
+button {
+  background-color: transparent;
+  background-image: none;
+  outline: none;
+}
+
+div.svelte-1799bj2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  font-family: inherit;
+}
+
+img.svelte-1799bj2 {
+  max-height: 100%;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+span.svelte-1799bj2 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: inherit;
+  margin-left: 0.66em;
+  font-weight: bold;
+  text-align: left;
+  font-family: inherit;
+}
+
+div.svelte-w9ftfy.svelte-w9ftfy {
+  display: flex;
+  font-size: inherit;
+  font-family: inherit;
+  justify-content: space-between;
+}
+
+.cta.svelte-fnc3e1 {
+  border: 1px solid #4a90e2;
+  border-radius: 40px;
+}
+
+.bn-onboard-custom.bn-onboard-dark-mode-link {
+  color: #91bced;
+  border-color: #91bced;
+}
+
+button.svelte-fnc3e1 {
+  border: none;
+  background: inherit;
+  font-size: 0.889em;
+  font-family: inherit;
+  padding: 0.55em 1.4em;
+  cursor: pointer;
+  color: #4a90e2;
+  font-family: inherit;
+  transition: background 150ms ease-in-out;
+  line-height: 1.15;
+  opacity: 1;
+  transition: opacity 200ms;
+}
+
+div.svelte-w9ftfy span.svelte-w9ftfy {
+  color: #4a90e2;
+  font-size: inherit;
+  font-family: inherit;
+  margin-top: 0.66em;
+  cursor: pointer;
+}
+
+div.svelte-rntogh {
+  height: 0.66em;
+  position: absolute;
+  padding: 0.25em;
+  top: 1.33em;
+  right: 1.33em;
+  font-size: inherit;
+  font-family: inherit;
+  border-radius: 5px;
+  transition: background 200ms ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+svg.svelte-rntogh {
+  width: 10px;
+  height: 10px;
+}
+
+svg.svelte-rntogh:hover {
+  fill: #fff;
+  cursor: pointer;
+}
+
+div.svelte-q1527.svelte-q1527 {
+  width: 100%;
+  display: flex;
+  font-size: inherit;
+  font-family: inherit;
+  justify-content: center;
+  margin-top: 1.25em;
+}
+
+*:focus {
+  outline: 0 !important;
+}
+
+element.style {
+  transition: fill 150ms ease-in-out 0s;
+}
