@@ -20,12 +20,12 @@ const data = [
   {
     question: "How to Mint ?",
     answer:
-      "Minting will be announced on our discord group. We will be holding a presale 1 day prior to the public launch for our Whitelist members. Please join our Discord to learn how you can join the Whitelist. The Whitelist spots will be very limited.The public sale will happen 24h after the pre-sale.",
+      "Minting Will Be Announced On Our Discord Group. Please Join Our Discord To Learn How You Can Join The Whitelist. The Whitelist Spots Will Be Very Limited. The Public Sale Will Happen 4h After The Pre-Sale.",
   },
   {
-    question: "Where can i view my afts after minting ?",
+    question: "Where Can I View My Nfts After Minting ?",
     answer:
-      "Once you have minted a Meka Ape NFT, you will be able to see it by connecting your Metamask wallet to OpenSea.",
+      "Once You Have Minted The Gregs NFT, You Will Be Able To See It By Connecting Your Metamask Wallet To OpenSea.",
   },
 ];
 
